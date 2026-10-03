@@ -5,8 +5,10 @@ pkg update -y && pkg upgrade -y
 pkg install python git -y
 pip install python-telegram-bot colorama pyfiglet rich
 
-# maker.py ডাউনলোড করা
-curl -s -O https://raw.githubusercontent.com/nahidmia131312-tech/bot-maker./main/maker.py
+# পুরো রেপোজিটরি ক্লোন করে ভেতরে ঢোকা
+rm -rf bot-maker
+git clone https://github.com/nahidmia131312-tech/bot-maker.git bot-maker
+cd bot-maker
 
 # সরাসরি টুল রান করানো
 python maker.py
