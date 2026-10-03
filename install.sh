@@ -8,7 +8,7 @@ pip install python-telegram-bot colorama pyfiglet rich
 # পুরো রেপোজিটরি ক্লোন করে ভেতরে ঢোকা
 rm -rf bot-maker
 git clone https://github.com/nahidmia131312-tech/bot-maker.git bot-maker
-cd bot-maker
+cd bot-maker.
 
 # সরাসরি টুল রান করানো
 python maker.py
